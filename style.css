@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 38vw;
+    height: 75vh;
+    margin-top: 100px;
+    border-radius: 53px;
+    cursor: pointer;
+    background-image: linear-gradient(123deg, #AA6969, #EF546D, #B6D3D4);
+}
+
+body img {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container:hover {
+    border: 6px solid pink;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innercontainer {
+    width: 28vw;
+    height: 60vh;
+    border-radius: 53px;
+}
+
+.inputs {
+    margin-top: 103px;
+    gap: 23px;
+    flex-direction: column;
+
+}
+
+input[type="text"] {
+    width: 29vw;
+    height: 6vh;
+    border-radius: 23px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.2rem;
+    color: gray;
+
+}
+
+.bg {
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+    background-image: url(love-heart-4k-fo.jpg);
+    object-fit: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#exictedgif {
+    width: 140px;
+    height: 144px;
+    margin-right: 23px;
+}
+
+.bg #exictedgif {
+    justify-content: flex-start;
+}
+
+.innercontainer h1 {
+    text-align: center;
+}
+
+.btns {
+    margin-top: 63px;
+    gap: 23px;
+}
+
+.btn {
+    width: 123px;
+    height: 53px;
+    border: none;
+    background-color: #d1001f;
+    color: white;
+    cursor: pointer;
+    border-radius: 23px;
+    font-size: 1.2rem;
+}
+#changename{
+    display: none;
+}
+#fc
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: papayawhip;
+}
