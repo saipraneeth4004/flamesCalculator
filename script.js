@@ -1,4 +1,3 @@
-
 console.log("Welcome to the script page, bro");
 
 let partner1 = document.getElementById("patner1");
