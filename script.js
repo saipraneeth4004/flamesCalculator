@@ -15,9 +15,7 @@ displayResult.style.display="block";
     if (!name1 || !name2) {
         alert("Please enter both names.");
         return;
-    }
-
-    if (name1.toLowerCase() === name2.toLowerCase()) {
+    }    if (name1.toLowerCase() === name2.toLowerCase()) {
         alert("You entered the same name, please try different names.");
         return;
     }
